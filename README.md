@@ -99,8 +99,6 @@ Varför göra det idag? Främst för att förenkla överlämnande och uppsättni
 
 [Arkitekternas referensdatabas](https://github.com/sweco/6604323000-referensdatabas/tree/feature/elasticsearch/containers)
 
-[Naturvårdsverket stationsregister](https://github.com/sweco/6604349000-NV_Stationsregister/tree/develop/containers)
-
 [Posten postnummer redigering, PCC4](https://github.com/sweco/6604639000-pcc4/tree/develop/database)
 
 [Nackas externkarta](https://github.com/sweco/6602874000-externwebb_nacka/tree/master/containers)
