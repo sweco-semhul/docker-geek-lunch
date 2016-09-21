@@ -2,7 +2,8 @@
 
 ## Vad är Docker?
 Docker är en open source-produkt med ett bolag med samma namn bakom. Docker är från början för Linux men har kommit till fler plattformar tex Mac och Windows.
-[www.docker.com/products/docker](https://www.docker.com/products/docker)
+
+Börja här: [www.docker.com/products/docker](https://www.docker.com/products/docker)
 
 ![Alt text](virtual_vs_docker.png?raw=true "Virtual Machines vs Containers")
 
