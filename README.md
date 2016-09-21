@@ -1,4 +1,4 @@
-# Nördlunch Docker
+# Nördlunch Docker i utveckling
 
 ## Vad är Docker?
 Docker är en open source-produkt med ett bolag med samma namn bakom. Docker är från början för Linux men har kommit till fler plattformar tex Mac och Windows.
