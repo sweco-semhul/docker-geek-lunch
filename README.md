@@ -72,9 +72,9 @@ ADD sql/*.sql /docker-entrypoint-initdb.d/
 Jobbigt att hålla koll på ett `docker build` / `docker run` kommando. Ännu jobbigare om det är flera...
 
 ### [**docker-compose**](https://docs.docker.com/compose/gettingstarted/#/step-3-define-services) räddar oss. 
-Finns med i kartongen i Docker for Mac och Docker for Windows.
+Ett lager utanpå Docker för att förenklat hantering av docker containrar. Samt ger möjligheten att skapa recept för att hantera och länka ihop flera containrar i en så kallad docker-compose.yml-fil. (docker-compose finns med i kartongen i Docker for Mac och Docker for Windows)
 
-docker-compose.yml exempel:
+`docker-compose.yml` exempel:
 
 ```
 min-postgis:
@@ -92,19 +92,19 @@ min-geoserver:
 
 `docker-compose up` bygg och starta
 
-[docker-compose referens](https://docs.docker.com/compose/reference)
+[docker-compose referens finns här](https://docs.docker.com/compose/reference)
 
 Nu finns GeoServer tillgänglig på:
 
 [http://localhost:8080/geoserver/web](http://localhost:8080/geoserver/web)
 
 
-# Vad gör vi idag?
+# Varför ska vi använda det här? och vad gör vi idag?
 
-Varför göra det idag? Främst för att förenkla överlämnande och uppsättning av utvecklingsmiljöer.
+Främst för att förenkla överlämnande och uppsättning av utvecklingsmiljöer. Lättare att förvalta projekt över tid. Slippa hantering av stora virtuella maskiner.
 
 
-##Exempel
+##Exempel på projekt där vi gör det här idag
 
 [Arkitekternas referensdatabas](https://github.com/sweco/6604323000-referensdatabas/tree/feature/elasticsearch/containers)
 
