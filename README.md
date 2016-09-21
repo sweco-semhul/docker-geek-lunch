@@ -64,11 +64,15 @@ ADD sql/*.sql /docker-entrypoint-initdb.d/
 **Stoppa**
 `docker stop min-postgis-container`
 
+#### Mer info om kommandon finns såklart och en bra början är:
+`docker --help` eller [docker command line reference](https://docs.docker.com/engine/reference/commandline)
+
 ## men om jag har flera containrar, hur göra då?
 
 Jobbigt att hålla koll på ett `docker build` / `docker run` kommando. Ännu jobbigare om det är flera...
 
-[**docker-compose**](https://docs.docker.com/compose/gettingstarted/#/step-3-define-services) räddar oss. (Finns med i kartongen i Docker for Mac och Docker for Windows)
+### [**docker-compose**](https://docs.docker.com/compose/gettingstarted/#/step-3-define-services) räddar oss. 
+Finns med i kartongen i Docker for Mac och Docker for Windows.
 
 docker-compose.yml exempel:
 
@@ -86,7 +90,11 @@ min-geoserver:
     - "8080:8080"
 ```
 
-`docker-compose up`
+`docker-compose up` bygg och starta
+
+[docker-compose referens](https://docs.docker.com/compose/reference)
+
+Nu finns GeoServer tillgänglig på:
 
 [http://localhost:8080/geoserver/web](http://localhost:8080/geoserver/web)
 
