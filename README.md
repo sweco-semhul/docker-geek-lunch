@@ -12,7 +12,7 @@ Docker är en open source-produkt med ett bolag med samma namn bakom. Docker är
 
 Recept för att skapa en container. Alltså vilka ingående komponenter som ska vara med i min server (Java 1.6.5, Apache 2.0 osv) det som tidigare gjordes förhand en gång och sedan glömdes bort. Vilket gjorde det jobbigt att göra om och att återanvända.
 
-Färdiga images, image bibliotek: [hub.docker.com](https://hub.docker.com) ,,, (*går även att hämta från github eller egen hostad image library*)
+Färdiga images, image bibliotek: [hub.docker.com](https://hub.docker.com)  (*går även att hämta från github eller egen hostad image library*)
 
 ### container
 
