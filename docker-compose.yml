@@ -1,0 +1,11 @@
+min-postgis:
+  build: postgis_docker_exempel/.
+  ports:
+    - "5432:5432"
+
+min-geoserver:
+  image: winsent/geoserver
+  links:
+    - min-postgis
+  ports:
+    - "8080:8080"

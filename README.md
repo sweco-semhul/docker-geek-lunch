@@ -35,7 +35,7 @@ Köra en viss version:
 Ett litet exempel:
 
 ```
-FROM mdillon/postgis:9.4
+FROM mdillon/postgis:9.1
 
 ADD sql/*.sql /docker-entrypoint-initdb.d/
 ```
